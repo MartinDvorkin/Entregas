@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  
+  <title>Document</title>
+</head>
+<body>
+  <h1 class="btn-warning">Formulario de Registro</h1>
+  <form action='/register' method="POST">
+    <div class="form-group">
+      <label for="exampleInputEmail1">Direccion Email</label>
+      <input type="email" class="form-control" name='email' id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ingresa Email">
+      <small id="emailHelp" class="form-text text-muted">Nunca compartiremos tu email con terceros.</small>
+    </div>
+    <div class="form-group">
+      <label for="exampleInputPassword1">Contraseña</label>
+      <input type="password" class="form-control" name='password' id="exampleInputPassword1" placeholder="Clave">
+      <small id="passwordHelp" class="form-text text-muted">Nunca compartiremos tu Contraseña con terceros.</small>
+    </div>
+    <button type="submit" class="btn btn-primary">Enviar</button>
+  </form>
+</body>
+</html>
